@@ -12,10 +12,12 @@ public class StockDemo {
         manager.printProductDetails();;
         manager.delivery(132, 5);;
         manager.printProductDetails();
+        System.out.println("Testing");
     }
 
     public static void main(String[] args) {
         StockDemo stockDemo1 = new StockDemo();
         stockDemo1.demo();
+        
     }
 }
